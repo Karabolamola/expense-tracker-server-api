@@ -1,0 +1,27 @@
+{
+	"name": "server",
+	"version": "1.0.0",
+	"description": "Expenses Tracker",
+	"main": "server.js",
+	"engines": {
+		"node": "v18.18.2"
+	},
+	"scripts": {
+		"start": "node src/server.js",
+		"watch": "nodemon src/server.js"
+	},
+	"keywords": [
+		"MERN"
+	],
+	"author": "Karabo Lamola",
+	"license": "MIT",
+	"dependencies": {
+		"dotenv": "^16.3.1",
+		"express": "^4.18.2",
+		"mongoose": "^7.6.2"
+	},
+	"devDependencies": {
+		"nodemod": "^3.0.6",
+		"nodemon": "^3.0.1"
+	}
+}
